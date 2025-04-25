@@ -58,7 +58,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required" :false,    
-      "value": "Asia/Karachi"
+      "value": "nairobi"
     },  
 
 
@@ -79,11 +79,12 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "256700273834"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": 
+      "required": false
     },
     "OPENAI_API_KEY": {
       "description": "put your OPENAI api key here.Get it from beta.openai.com ",
@@ -102,7 +103,7 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public/private, if private then only bot number can use it. If public then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
